@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<pid><![CDATA[2974587]]></pid>
+		<title><![CDATA[Alkira House. 18 Queen St, Melbourne]]></title>
+		<description><![CDATA[Alkira House , a 1937 six storey inter-war building, was designed by J H Wardrop, who also designed the Shrine of Remembrance. The use of glass bricks, distinct tiles and the vertical design make this building a rare example of Jazz Moderne Art Deco architecture in Melbourne.]]></description>
+		<identifier><![CDATA[jc019534]]></identifier>
+		<format><![CDATA[image/jpg]]></format>
+		<type><![CDATA[StillImage]]></type>
+		<accessrightsstatement><![CDATA[Use of this work allowed provided the creator and SLV acknowledged.]]></accessrightsstatement>
+		<copyrightstatement><![CDATA[This work is in copyright. Copyright has been assigned to the State Library of Victoria]]></copyrightstatement>
+		<relationship><![CDATA[Hoddles Grid App]]></relationship>
+		<digitaluri><![CDATA[http://api.slv.vic.gov.au/access_record/2975890]]></digitaluri>
+		<ilmsidentifier><![CDATA[1700142]]></ilmsidentifier>
+		<ilmsuri><![CDATA[http://search.slv.vic.gov.au/MAIN:Everything:SLV_VOYAGER1700142]]></ilmsuri>
+		<creator2fcontributor><![CDATA[Collins, John T. 1907-2001 , photographer.]]></creator2fcontributor>
+		<date><![CDATA[1/8/1978]]></date>
+		<location><![CDATA["-37.818325, 144.962536", 18 Queen]]></location>
+		<accessionnumber><![CDATA[H98.252/1209]]></accessionnumber>
+	</node>
+</data>
