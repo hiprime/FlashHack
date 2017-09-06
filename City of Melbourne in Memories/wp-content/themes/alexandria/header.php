@@ -53,16 +53,8 @@
                 </div>
                 
             </div>
+   
             
-            <div class="site-header-half-width-nav">
-    
-                <nav id="site-navigation" class="main-navigation" role="navigation">
-                    <div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'alexandria' ); ?>"><?php _e( 'Skip to content', 'alexandria' ); ?></a></div>
-        
-                    <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'main-nav', 'fallback_cb' => 'alexandria_backupmenu'  ) ); ?>
-                </nav><!-- #site-navigation -->
-                
-            </div>                
             
         <?php else : ?>
         
@@ -76,15 +68,10 @@
                 <?php endif; ?>
                 
             </div>
-                
+                 
             
 
-            <nav id="site-navigation" class="main-navigation nav-border-top" role="navigation">
-                    <div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'alexandria' ); ?>"><?php _e( 'Skip to content', 'alexandria' ); ?></a></div>
-        
-                    <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'main-nav', 'fallback_cb' => 'alexandria_backupmenu'  ) ); ?>
-            </nav><!-- #site-navigation --> 
-                
+    
         
         <?php endif; ?>
             

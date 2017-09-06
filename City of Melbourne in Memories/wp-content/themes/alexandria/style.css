@@ -1,4 +1,7 @@
 /*
+Web developer: FlashHack team
+Theme Modified By: FlashHack team
+UI & Css Modified By: Kevin & Chirs
 Theme Name: Alexandria
 Theme URI: https://www.themealley.com/alexandria/
 Description: HTML5 & CSS3 Responsive WordPress Business and ecommerce theme with business style home page layout with welcome section, 3 product/services blocks and a client quote/testimonial section. 2 logo section layout options. 2 premade (Blue, Red) ready to use color schemes/skins. 3 widget areas in footer, 1 widget area in sidebar. 2 page layouts including a full width page template. Social media icons in footer. 
@@ -156,28 +159,38 @@ a img {
 /* =Global
 ----------------------------------------------- */
 
+#primary {
+width: 100% !important;
+}
+
+/* This help the content become centralize. */
+/* Css Modified by Kevin. */
+/* 30-08-2017*/
+
 body,
 button,
 input,
 select,
 textarea {
-	color: #000;
-	font-family: 'NobileRegular', sans-serif;
-	font-size: 16px;
-	font-size: 1.6rem;
+	color: #996633;
+	font-family: 'Verdana', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
 	line-height: 1.75;
-	word-wrap:break-word;	
+	word-wrap:break-word;
 }
 
 /* Headings */
 h1,h2,h3,h4,h5,h6 {
 	clear: both;
-	font-family: 'TitilliumText22LRegular', sans-serif;
+	font-family: 'Georgia', Serif;
 	line-height: 1.25;
 }
 h1{
 	font-size: 48px;
 	font-size: 4.8rem;
+	color: #3d5c5c;
+	font-weight: bold;
 }
 h2{
 	font-size: 36px;
@@ -498,12 +511,20 @@ a:active {
 }
 .site-header{
 	width:100%;
-	background:#1e1f22;
+	background:url("https://hasanistiak.com/wp-content/uploads/2017/09/Melbourne_Skyline_from_Rialto_Crop_-_Nov_2008.jpg");
+	background-repeat: no-repeat;
+	background-size: 120% 155%;
 	text-align:center;
+	height:260px;
 }
+
+/* This is used to change the default background of the header part. */
+/* Css Modified by Kevin. */
+/* 30-08-2017*/
+
+
 .site-slider{
 	width:100%;
-	background:url(images/alexandria/header_overlay.png) top center no-repeat, url(images/alexandria/header_bg.jpg);
 }
 .site-main{
 	width:100%;
@@ -518,17 +539,22 @@ a:active {
 	float:left;
 }
 .content-area{
-	width:100%;
-	margin:5% 0;
+	width:75%;
+	margin:3% 0;
 	float:left;
 }
+
+/* This is used to set the content area. */
+/* Css Modified by Kevin. */
+/* 28-08-2017*/
+
 .site-content{
-	width:90%;
+	width:80%;
 	margin:0 5%;	
 }
 .widget-area{
-	width:20%;
-	margin:5% 0 0 0;	
+	width:18%;
+	margin:2% 0 0 0;	
 	float:left;
 	background:#E4E6E9;
 }
@@ -780,7 +806,9 @@ a:active {
 	display: inline;
 }
 .page-content,
-.entry-content,
+.entry-content {
+	width:120%;
+}
 .entry-summary {
 	margin: 1.5em 0 0;
 }
@@ -1081,7 +1109,7 @@ object {
 
 .widget {
 	width:20%;
-	margin: 5% 5%;
+	margin: 2% 2%;
 	padding: 0 5%;
 	color:#000;
 }
@@ -1114,13 +1142,20 @@ object {
 	border-bottom:0;	
 }
 .search-field{
-	width:180%;
+	width:340%;
 	margin-bottom:10px;
 	border-radius:0 !important;
 	background:#D0D2D5 !important;
 	border:0 !important;
 	padding:0.7em 0 0.7em 5% !important;
 }
+
+/* This is used to set the search area in the sidebar area. */
+/* Css Modified by Kevin. */
+/* 20-08-2017*/
+
+
+
 .search-submit{
 	display:inline-block;
 	padding:0.7em 2.5em !important;
@@ -1134,7 +1169,7 @@ object {
 /* Footer Widgets */
 .site-footer .widget {
 	width:80%;
-	margin: 5% 5%;
+	margin: 3% 3%;
 	padding: 0 5%;
 	color:#8C9094;
 	font-size:14px;
@@ -1172,6 +1207,7 @@ object {
 	border-bottom:0;	
 }
 .site-footer .search-field{
+	width:100%;
 	background:#2F2F2F !important;
 	color:#878786;
 }
@@ -1185,8 +1221,8 @@ object {
 
 /* Make sure select elements fit in widgets */
 .widget select {
-	width: 50%;
-	margin:5%;
+	width: 20%;
+	margin:2%;
 	background:#D0D2D5;
 }
 
@@ -1286,6 +1322,14 @@ object {
 	display:inline-block;
 	background:#E4E7E9;
 }
+.timelinehomepage{
+	width:78%;
+	margin:auto;
+}
+
+/* This is used to set the style of timeline on homepage. */
+/* Css Modified by Kevin. */
+/* 28-08-2017*/
 
 /* BizTwo Section
 ----------------------------------------------- */
@@ -1817,7 +1861,7 @@ object {
 	text-decoration:none;
 }
 .footer-search{
-	width:64%;
+	width:34%;
 	margin:20px auto 5px auto;	
 }
 .footer-search .search-field{
@@ -1939,19 +1983,19 @@ and (min-width : 901px) {
 .site-slider-slider-one-text-heading{
 	text-align:left;
 }
-.site-slider-slider-one-text-description{
+.site-slider-slihttps://hasanistiak.com/der-one-text-description{
 	text-align:left;
 }
 .site-slider-slider-one-text-button{
 	text-align:left;	
 }
 .content-area{
-	width:60%;
-	margin:2% 4% 2% 2%;
+	width:75%;
+	margin:2% 0% 2% 3%;
 	float:left;
 }
 .site-content{
-	width:100%;
+	width:80%;
 	margin:0;	
 }
 .paging-navigation .nav-previous{
@@ -1969,8 +2013,8 @@ and (min-width : 901px) {
 	width:50%;
 }
 .widget-area{
-	width:32%;
-	margin:2% 2% 2% 0;	
+	width:18%;
+	margin:1% 2% 1% 0;	
 	float:left;
 }
 .biz0ne-products-services-item{
@@ -2054,7 +2098,7 @@ and (min-width : 901px) {
 	text-align:left;
 }
 .footer-search{
-	width:64%;
+	width:34%;
 	margin:20px 8% 5px 8%;	
 }
 }

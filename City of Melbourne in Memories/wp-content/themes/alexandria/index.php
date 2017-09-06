@@ -98,5 +98,8 @@ get_header(); ?>
 		</div><!-- #content -->
 	</section><!-- #primary -->
 
-<?php get_sidebar(); ?>
+/* SideBar part has been removed from the page. */
+/* Css Modified by Kevin & Chirs. */
+/* 31-08-2017*/
+
 <?php get_footer(); ?>

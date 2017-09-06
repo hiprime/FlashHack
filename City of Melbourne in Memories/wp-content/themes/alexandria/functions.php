@@ -88,8 +88,8 @@ function alexandria_setup() {
 	 * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
 	 */
 	add_theme_support( 'post-thumbnails' );
-	add_image_size( 'alexandriathumb', 450, 300, true );
-  	add_image_size( 'alexandriasingle', 1200, 500, true );
+	add_image_size( 'alexandriathumb', 1200, 500, true );
+  	add_image_size( 'alexandriasingle', 1200, 800, true );
 	
 	add_theme_support( 'custom-logo', array(
 		'flex-height' => true,

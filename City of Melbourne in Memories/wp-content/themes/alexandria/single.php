@@ -17,7 +17,7 @@ get_header(); ?>
 			<?php if(!of_get_option('show_np_box') || of_get_option('show_np_box')=='true') : ?>
 				<?php alexandria_content_nav( 'nav-below' ); ?>
             <?php endif; ?>
-
+			
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template
 				if ( comments_open() || '0' != get_comments_number() )
@@ -28,6 +28,4 @@ get_header(); ?>
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
