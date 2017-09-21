@@ -1,0 +1,4 @@
+[19-Sep-2017 07:43:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/hasan043/public_html/iteration3/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/hasan043/public_html/iteration3/wp-includes/rss-functions.php on line 8
