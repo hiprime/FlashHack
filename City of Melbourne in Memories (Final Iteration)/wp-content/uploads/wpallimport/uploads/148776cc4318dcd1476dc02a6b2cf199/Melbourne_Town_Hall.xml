@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<pid><![CDATA[3077632]]></pid>
+		<title><![CDATA[Melbourne Town Hall]]></title>
+		<description><![CDATA[The Melbourne Town Hall was opened in 1870 and was designed by prominent architect Joseph Reed, who is responsible for a number of Melbourne buildings. The Town Hall was constructed from a mix of bluestone and Tasmania freestone, and features include the Town Hall clock, made by Smith and Sons of London, and the portico, which was added in the 1880s. As well acting as the central municipal building, it is a venue for live theatre, music, comedy and weddings.]]></description>
+		<identifier><![CDATA[a14367]]></identifier>
+		<format><![CDATA[image/jpg]]></format>
+		<type><![CDATA[StillImage]]></type>
+		<accessrightsstatement><![CDATA[No copyright restrictions apply.]]></accessrightsstatement>
+		<copyrightstatement><![CDATA[This work is out of copyright]]></copyrightstatement>
+		<relationship><![CDATA[Hoddles Grid App]]></relationship>
+		<digitaluri><![CDATA[http://api.slv.vic.gov.au/access_record/3078381]]></digitaluri>
+		<ilmsidentifier><![CDATA[1720316]]></ilmsidentifier>
+		<ilmsuri><![CDATA[http://search.slv.vic.gov.au/MAIN:Everything:SLV_VOYAGER1720316]]></ilmsuri>
+		<creator2fcontributor><![CDATA[Cooper, William H. photographer.]]></creator2fcontributor>
+		<date><![CDATA[1887/1893]]></date>
+		<location><![CDATA["-37.815300, 144.966435", 104 Swanston]]></location>
+		<accessionnumber><![CDATA[H141417]]></accessionnumber>
+	</node>
+</data>
